@@ -78,8 +78,8 @@ The action supports four different vote types:
 
 ### cancelled
 
-- **Vote**: Code-Review=+1
-- **Usage**: Mark the review as cancelled
+- **Vote**: Verified=-1, Code-Review=-1
+- **Usage**: Mark the workflow run as cancelled/aborted (inconclusive result)
 - **Status Message**: "CANCELLED"
 
 ## Comment Mode

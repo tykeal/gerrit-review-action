@@ -102,7 +102,7 @@ runs:
       shell: bash
       run: |
         if [[ "${{ inputs.comment-only }}" == "false" ]]; then
-          VOTE="--label Code-Review=1"
+          VOTE="--label Verified=-1 --label Code-Review=-1"
         else
           VOTE=""
         fi
